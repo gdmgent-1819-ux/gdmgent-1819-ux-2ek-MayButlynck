@@ -7,3 +7,202 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+body{
+    background-image: url(./components/images/sask_sky.PNG);
+    width: 1366px;
+    height: 768px;
+}
+.header_balk{
+    width: 100vw;
+    height: 50px;
+    background-color: var(--c-primary);
+}
+.logo{
+    width: 180px;
+    height: 205px;
+    position: absolute;
+    left: 634px;
+}
+h1{
+    font-family: var(--t-primary);
+    font-size: 32px;
+    color: var(--c-white);
+    text-align: center;
+    position: absolute;
+    left: 464px;
+    top: 202px;
+}
+
+h1 strong{
+    font-family: var(--t-primary);
+    font-size: 50px;
+    color: var(--c-white);
+    text-align: center;
+}
+
+.kleuter h2{
+    font-family: var(--t-primary);
+    font-size: 32px;
+    color: var(--c-primary);
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+
+}
+
+.lager h2{
+    font-family: var(--t-primary);
+    font-size: 32px;
+    color: var(--c-primary);
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+
+.humaniora h2{
+    font-family: var(--t-primary);
+    font-size: 32px;
+    color: var(--c-primary);
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 900px;
+}
+
+h3{
+    font-family: var(--t-primary);
+    font-size: 14px;
+    color: var(--c-white);
+    text-align: center;   
+    float: left;
+}
+
+h4{
+    font-family: var(--t-primary);
+    font-size: 18px;
+    color: var(--c-white);
+    text-align: center;
+
+}
+
+p{
+    font-family: var(--t-primary);
+    font-size: 14px;
+    color: var(--c-white);
+    text-align: center;
+}
+
+h6{
+    font-family: var(--t-primary);
+    font-size: 10px;
+    color: var(--c-white);
+    text-align: center;
+    float: left;
+    margin-right: 6px;
+}
+footer{
+    width: 410px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: var(--c-primary);
+    position: absolute;
+    left: 504px ;
+    bottom: 0px;
+}
+.extra1{
+    width: 390px;
+    height: 125px;
+    padding: 10px;
+    background-color: var(--c-primary);
+    opacity: 0.6;
+    position: absolute;
+    left: 50px ;
+    top: 568px;
+}
+
+div.extra1:hover{
+    opacity: 1;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.extra2{
+    width: 390px;
+    height: 125px;
+    padding: 10px;
+    background-color: var(--c-secondary);
+    opacity: 0.6;
+    position: absolute;
+    left: 998px ;
+    top: 568px;
+}
+
+div.extra2:hover{
+    opacity: 1;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.container{
+    width: 2000px;
+    height: 718px;
+    position: absolute;
+    top: 50px;
+    left: 175px;
+}
+
+.kleuter{
+    width: 33%;
+    height: 718px;
+    float: left;
+    opacity: 0.2;
+}
+.kleuter:hover{
+    opacity: 1;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.kleuter img{
+    height: 100%;
+    width: 100%;
+}
+
+.lager{
+    width: 34%;
+    height: 718px;
+    float: left;
+    opacity: 0.2;
+}
+.lager:hover{
+    opacity: 1;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+.lager img{
+    height: 100%;
+    width: 100%;
+}
+
+.humaniora{
+    width: 33%;
+    height: 718px;
+    float: left;
+    opacity: 0.2;
+}
+.humaniora:hover{
+    opacity: 1;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+.humaniora img{
+    height: 100%;
+    width: 100%;
+}
